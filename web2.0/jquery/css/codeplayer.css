@@ -1,0 +1,64 @@
+body{
+    font-family: "open-sans", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+#header{
+    background-color: #eeeeee;
+    height: 30px;
+    padding: 5px 0 5px 15px;
+}
+#logo{
+    font-weight: bold;
+    font-size: 120%;
+    float: left;
+    margin: 3px 0;
+}
+#containerBtn{
+    width: 300px;
+    margin: 0 auto;
+}
+.toggleBtn{
+    float: left;
+    border: 1px solid #aaa;
+    border-right: none;
+    font-size: 90%;
+    font-weight: bold;
+    
+    padding: 5px;
+    margin: 0px 0;
+    cursor: pointer;
+}
+#html {
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+#output{
+    padding-left: 10px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-right: 1px solid #aaa;
+}
+iframe{
+    padding-left: 10px;
+}
+.active{
+    background-color: #a0c4f3;
+}
+.highlightBtn{
+    background-color: gray;
+}
+textarea{
+    border-top: none;
+    border-bottom: none;
+    border-color: gray;
+    resize: none;
+}
+.panel{
+    float: left;
+    width: 50%;
+    border-left: none;
+}
+.hidden{
+    display: none;
+}

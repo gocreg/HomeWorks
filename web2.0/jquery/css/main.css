@@ -1,0 +1,13 @@
+body{
+    background: #f5f5fd;
+}
+#circle{
+    background-color: #232399;
+    width:100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 10px;
+}
+.p2{
+    display: none;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=">
+    <script src="js/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/main.css">
+    <title>jquery</title>
+</head>
+<body>
+    <p class="p1"></p>
+    <button id="outBtn">Нажми</button>
+    
+    <div id="circle"></div>
+<script>
+    
+   $("#outBtn").click(function(){
+
+           $(".p1").toggle();
+
+   });
+       
+   $("#circle").click(function(){
+       $(this).animate({
+           width:"800px",
+           height:"800px",
+           marginLeft:"100px",
+           marginTop:"100px"
+       },2000, function(){
+           $(this).css("background-color", "red")
+       });
+   })
+     $.ajax("info.txt").done(function(data){
+         $(".p1").html(data);
+     })
+    .fail(function(){
+         alert("Что-то пошло не так!")
+     })
+    
+</script>
+
+
+<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/codeplayer.css">
+    <title>Codeplayer</title>
+
+</head>
+<body>
+    <div id="header">
+        <div id="logo">CodePlayer</div>
+        <div id="containerBtn">
+            <div class="toggleBtn active" id="html">HTML</div>
+            <div class="toggleBtn" id="css">CSS</div>
+            <div class="toggleBtn" id="javascript">JavaScript</div>
+            <div class="toggleBtn active" id="output">Output</div>
+        </div>
+    </div>
+    <div id="bodyContainer">
+        <textarea id="htmlPanel" class="panel" placeholder="Введите текст..."></textarea>
+        <textarea id="cssPanel" class="panel hidden"></textarea>
+        <textarea id="javascriptPanel" class="panel hidden"></textarea>
+        <iframe frameborder="0" id="outputPanel" class="panel"></iframe>
+    </div>
+<script src="js/main.js"></script>
+</body>
+</html>
